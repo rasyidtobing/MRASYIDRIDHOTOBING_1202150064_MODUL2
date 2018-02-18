@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context="com.example.android.mrasyidridhotobing_1202150064_modul2.TakeAway">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/take_away"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/inputNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:hint="@string/phone_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:hint="@string/address" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="daftarMenu"
+        android:text="@string/next" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MRASYIDRIDHOTOBING_1202150064_MODUL2</string>
+    <string name="pesan">PESAN</string>
+    <string name="take_away">TAKE AWAY</string>
+    <string name="dine_in">DINE IN</string>
+    <string name="pilih_menu">PILIH MENU:</string>
+    <string name="next">NEXT</string>
+    <string name="address">ADDRESS</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="name">NAME</string>
+    <string name="title_activity_list_menu">ListMenu</string>
+    <string name="table">Table</string>
+    <string-array name="table">
+        <item>Table A</item>
+        <item>Table B</item>
+        <item>Table C</item>
+        <item>Table D</item>
+        <item>Table E</item>
+    </string-array>
+</resources>

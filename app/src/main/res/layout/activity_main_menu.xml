@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.mrasyidridhotobing_1202150064_modul2.MainMenu">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hulk" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/pilih_menu" />
+
+    <RadioGroup
+        android:id="@+id/ragr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/dine_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dine_in" />
+
+        <RadioButton
+            android:id="@+id/take_away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take_away" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="masukmenu"
+        android:text="@string/pesan" />
+</LinearLayout>

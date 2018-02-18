@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ragr" type="id">ragr</item>
+    <item name="table" type="id">table</item>
+    <item name="listMenu" type="id">List Menu</item>
+</resources>
